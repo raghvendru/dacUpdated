@@ -8,16 +8,17 @@ public class Array {
 			if(nums[i]>maxi) {
 				maxi = nums[i];
 			}
-		}
+		}	
+		
 		return maxi;
 	}
 public static void main(String[] args) {
-	//int[] nums1 = new int[2];
+	// int[] nums1 = new int[2];
 	int nums1[] = new int[2];
 	
 
-	nums1[0] = 25;
-	nums1[1] = 30;
+	nums1[0] = 55;
+	nums1[1] = 36;
     for(int i=0;i<nums1.length;i++) {
     	System.out.println(nums1[i]);
     }
